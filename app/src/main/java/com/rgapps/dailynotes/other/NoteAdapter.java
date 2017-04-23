@@ -65,6 +65,9 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteViewHolder
 
         }
     }
+    public void updateUI(){
+        //Invoke the method to update the UI from the adapter layer.
+    }
 
     public NoteAdapter(Context context, List<Note> noteList){
         this.mContext = context;

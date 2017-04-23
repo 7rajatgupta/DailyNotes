@@ -24,6 +24,7 @@ public class Note {
     private Date mDate;
     private Drawable mThumbnail;
     private boolean isFavorite = false;
+    public boolean isSynced = false;
 
 
 

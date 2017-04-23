@@ -36,6 +36,7 @@ public class NoteActivity extends SingleFragmentActivity {
     }
     public void updateUI(){
         //Method to the update the UI whenever the user clicks back or creates a new file.
+
     }
 
     @Override
