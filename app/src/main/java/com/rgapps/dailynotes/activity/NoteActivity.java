@@ -34,6 +34,9 @@ public class NoteActivity extends SingleFragmentActivity {
         intent.putExtra(EXTRA_NOTE_ID, noteId);
         return intent;
     }
+    public void updateUI(){
+        //Method to the update the UI whenever the user clicks back or creates a new file.
+    }
 
     @Override
     protected Fragment createFragment(){
@@ -57,6 +60,7 @@ public class NoteActivity extends SingleFragmentActivity {
                 NoteLab.get(this).addNote(note);
                 Intent i = new Intent(getApplicationContext(), NoteCreationActivity.class);
                 startActivity(i);
+                //After closing the note creation window the model layer is not getting refreshed .
                 return true;
             default:
                 return super.onOptionsItemSelected(menuItem);
