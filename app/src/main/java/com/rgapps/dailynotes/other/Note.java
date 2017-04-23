@@ -17,7 +17,7 @@ import java.util.UUID;
 
 public class Note {
     /**
-     * Model layer.
+     * Model layer to store all the notes.
      */
     private UUID mId;
     private String mTitle, mContent;
