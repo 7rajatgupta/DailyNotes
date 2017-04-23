@@ -52,7 +52,7 @@ public class NoteDetailActivity extends AppCompatActivity {
         mFabEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //To edit the Note.
+                //To edit the Note and save it after the user presses the back button.
                 Intent intent = new Intent(getApplicationContext(),NoteCreationActivity.class);
                 intent.putExtra(EXTRA_NOTE_ID, mNote.getId());
                 startActivity(intent);
