@@ -21,6 +21,7 @@ public class NoteDetailActivity extends AppCompatActivity {
      *
      * Created to show the detailed note when the user clicks on the note.
      * @param savedInstanceState
+     * detailed activity with the option to edit and delete this note.
      */
     private Note mNote;
     private Toolbar mToolbar;
