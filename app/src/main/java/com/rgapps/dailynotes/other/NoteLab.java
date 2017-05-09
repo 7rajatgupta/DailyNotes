@@ -38,10 +38,7 @@ public class NoteLab {
         /*for(int i = 0; i < 10; i++){
             Note note = new Note();
             note.setTitle("A new Note " + i);
-            note.setContent("Content for note no " + i);
-            note.setThumbnail(context.getResources().getDrawable(R.drawable.new_note_default));
-            mNotes.add(note);
-        }*/
+
     }
     public List<Note> getNotes(){
         return mNotes;
