@@ -35,9 +35,7 @@ public class NoteLab {
 
     private NoteLab(Context context){
         mNotes = new ArrayList<>();
-        /*for(int i = 0; i < 10; i++){
-            Note note = new Note();
-            note.setTitle("A new Note " + i);
+
 
     }
     public List<Note> getNotes(){
